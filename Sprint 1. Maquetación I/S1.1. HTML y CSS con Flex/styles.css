@@ -17,6 +17,10 @@ body {
 
 }
 
+.page-content {
+    max-width: 1255px;
+}
+
 .header-nav {
     display: flex;
     justify-content: space-between;
@@ -51,8 +55,12 @@ body {
 
 
 .nav-features {
+    
+    
     & a {
     padding: 20px;
+    width: 100%; 
+    text-align: center;
     }
 }
 
@@ -90,7 +98,7 @@ h2 {
 
 p {
     font-weight: 300;
-    color: #bdc2d0;
+    color: darkgrey;
     margin-bottom: 30px;
 }
 
@@ -155,7 +163,7 @@ button {
     height: 360px;
     width: 260px;
     text-align: center;
-    box-shadow: 5px 5px 10px lightgrey;
+    box-shadow: 0px 0px 10px lightgrey;
     font-size: smaller;
     padding: 0;
     border-radius: 10px;
@@ -495,5 +503,7 @@ section {
         bottom: 220px;
         width: 60%;
     }
+
+    
 
 }

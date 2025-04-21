@@ -11,6 +11,7 @@
   <!-- BODY -->
   <body>
     <!-- HEADER -->
+     <div class="page-content">
     <header>
       <nav class="header-nav" id="menu-principal">
         <div class="header-nav-images">
@@ -33,7 +34,7 @@
           </ul>
         </div>
         <div class="header-hamburguer">
-            <img src="assets/icon-hamburger.svg" onclick="openMenu()"/>
+            <img src="assets/icon-hamburger.svg" onclick="openMenu()" alt="hamburguer menu"/>
         </div>
       </nav>
 
@@ -56,7 +57,7 @@
               </g>
             </svg>
             <div class="close">
-                <img src="./assets/icon-close.svg" onclick="closeMenu()">
+                <img src="./assets/icon-close.svg" onclick="closeMenu()" alt="close icon">
             </div>
             
           </div>
@@ -74,8 +75,8 @@
           </div>
   
           <ul class="social-menu">
-            <li><img src="./assets/icon-facebook.svg" class="img-menu" /></li>
-            <li><img src="./assets/icon-twitter.svg" /></li>
+            <li><img src="./assets/icon-facebook.svg" class="img-menu" alt="facebook navigation icon" /></li>
+            <li><img src="./assets/icon-twitter.svg" alt="twitter navigation icon"/></li>
           </ul>
         </nav>
       
@@ -84,15 +85,11 @@
     <main>
       <!-- HERO -->
       <section class="hero">
-        <div class="images">
           <div class="hero-img">
             <img
               class="img-illustration"
-              src="assets/illustration-hero.svg"
-            />
+              src="assets/illustration-hero.svg" alt="hero illustration"/>
           </div>
-          <div class="hero-vector"></div>
-        </div>
 
         <div class="hero-content">
           <h1>A Simple Bookmark Manager</h1>
@@ -140,8 +137,8 @@
         </nav>
 
         <section class="feature" id="simple-bookmarking">
-          <div class="feature-img img-illustration">
-            <img src="assets/illustration-features-tab-1.svg" />
+          <div class="feature-img img-illustration" >
+            <img src="assets/illustration-features-tab-1.svg" alt="simple booking illustration" />
           </div>
           <div class="feature-content">
             <h2>Bookmark in one click</h2>
@@ -156,7 +153,7 @@
 
         <section class="feature" id="speedy-searching" style="display: none">
           <div class="feature-img img-illustration">
-            <img src="assets/illustration-features-tab-2.svg" />
+            <img src="assets/illustration-features-tab-2.svg" alt="speedy search illustration"/>
           </div>
           <div class="feature-content">
             <h2>Intelligent search</h2>
@@ -170,7 +167,7 @@
 
         <section class="feature" id="easy-sharing" style="display: none">
           <div class="feature-img img-illustration">
-            <img src="assets/illustration-features-tab-3.svg" />
+            <img src="assets/illustration-features-tab-3.svg" alt="easy sharing illustration"/>
           </div>
           <div class="feature-content">
             <h2>Share your bookmarks</h2>
@@ -195,7 +192,7 @@
         </div>
         <div class="cards">
           <div class="download-card chrome">
-            <img src="assets/logo-chrome.svg" class="cards-img" />
+            <img src="assets/logo-chrome.svg" class="cards-img" alt="chrome logo"/>
             <p class="title">Add to Chrome</p>
             <p class="details">Minimum version 62</p>
             <img src="assets/bg-dots.svg" class="dots" />
@@ -203,7 +200,7 @@
           </div>
 
           <div class="download-card firefox">
-            <img src="assets/logo-firefox.svg" class="cards-img" />
+            <img src="assets/logo-firefox.svg" class="cards-img" alt="firefox logo"/>
             <p class="title">Add to Firefox</p>
             <p class="details">Minimum version 55</p>
             <img src="assets/bg-dots.svg" class="dots" />
@@ -211,7 +208,7 @@
           </div>
 
           <div class="download-card opera">
-            <img src="assets/logo-opera.svg" class="cards-img" />
+            <img src="assets/logo-opera.svg" class="cards-img" alt="download logo"/>
             <p class="title">Add to Opera</p>
             <p class="details">Minimum version 46</p>
             <img src="assets/bg-dots.svg" class="dots" />
@@ -337,11 +334,13 @@
         </div>
 
         <ul class="social">
-          <li><img src="./assets/icon-facebook.svg" class="img-footer" /></li>
-          <li><img src="./assets/icon-twitter.svg" /></li>
+          <li><img src="./assets/icon-facebook.svg" class="img-footer" alt="facebook footer icon"/></li>
+          <li><img src="./assets/icon-twitter.svg"  alt="twitter footer icon"/></li>
         </ul>
       </nav>
     </footer>
+
+  </div>
 
     <!-- SCRIPTS -->
     <script>
