@@ -1,3 +1,3 @@
 # it-academy-frontend
 
-This repo includes my projects, exercises, and notes from a complete front-end development course.
+WARNING - this repo it's being deprecated please check other available repos
